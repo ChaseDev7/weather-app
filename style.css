@@ -15,6 +15,7 @@ h1 {
 
 h3 {
   margin: 5px 0;
+  color: rgb(72, 76, 98);
 }
 
 input {
@@ -24,9 +25,68 @@ input {
 }
 
 button {
-  margin: 10px 0;
+  margin: 10px 5px;
   padding: 10px 20px;
   border-radius: 20px;
   border: none;
   cursor: pointer;
+}
+
+#container {
+  background-color: white;
+  border: none;
+  width: 300px;
+  border-radius: 10px;
+  padding: 20px;
+  margin-top: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#city {
+  font-size: 40px;
+  font-weight: bold;
+}
+
+#details-container {
+  padding: 10px;
+  width: 100%;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+#weather-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border-right: 1px solid rgb(201, 197, 197);
+  padding: 10px 20px;
+}
+
+#info-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 10px 20px;
+}
+
+#weather {
+  margin-top: 10px;
+}
+
+img {
+  width: 100px;
+  height: auto;
+}
+
+#weather {
+  font-size: 15px;
+  font-weight: bold;
+  margin: 10px 0;
+}
+
+#temperature, #humidity, #wind {
+  font-size: 15px;
+  margin: 10px 0;
 }
